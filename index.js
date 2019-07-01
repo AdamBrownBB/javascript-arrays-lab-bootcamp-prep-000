@@ -17,15 +17,19 @@ function destructivelyPrependKitten(name) {
 }
 
 // use POP to remove last. 
-// no need for parameter because it's removal, not addition
+// no need for argument because it's removal, not addition
 
 function destructivelyRemoveLastKitten() {
   kittens.pop();
 }
 
+// use SHIFT to remove first, no argument needed
+
 function destructivelyRemoveFirstKitten() {
   kittens.shift();
 }
+
+//
 
 function appendKitten(name) {
   
