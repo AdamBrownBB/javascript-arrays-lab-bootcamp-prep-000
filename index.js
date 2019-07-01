@@ -48,14 +48,15 @@ function prependKitten(name) {
 
 
 /*  use SLICE to remove last b/c it doesn't modify original
-
-
+slice begins at index 0, ends at second to last index by using LENGTH method to get to that number
 */
 
 function removeLastKitten() {
   
   return kittens.slice(0, kittens.length - 1);
 }
+
+// use SLICE to remove the first element by starting at index 1
 
 function removeFirstKitten() {
   
