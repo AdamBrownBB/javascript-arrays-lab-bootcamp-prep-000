@@ -1,20 +1,25 @@
 var kittens = ["Milo", "Otis", "Garfield"] 
 
 // Add your functions and code here
+/* run the test
+use PUSH to add new name to the end 
+*/
+
+
 function destructivelyAppendKitten(name) {
-  kittens.push(name)
+  kittens.push(name);
 }
 
 function destructivelyPrependKitten(name) {
-  kittens.unshift(name)
+  kittens.unshift(name);
 }
 
 function destructivelyRemoveLastKitten() {
-  kittens.pop()
+  kittens.pop();
 }
 
 function destructivelyRemoveFirstKitten() {
-  kittens.shift()
+  kittens.shift();
 }
 
 function appendKitten(name) {
