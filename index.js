@@ -47,7 +47,7 @@ function prependKitten(name) {
 }
 
 
-/*  use SLICE to remove
+/*  use SLICE to remove last b/c it doesn't modify original
 
 */
 
