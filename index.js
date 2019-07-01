@@ -29,7 +29,7 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
 }
 
-// use SPREAD OPERATOR to add name to the end, leaving original intact
+/* use SPREAD OPERATOR to add name to the end, leaving original intact */
 
 function appendKitten(name) {
   
@@ -37,7 +37,8 @@ function appendKitten(name) {
   
 }
 
-// use SPREAD OPERATOR to add name to the beginning, leaving original intact
+/* use SPREAD OPERATOR to add name to the beginning, leaving original intact
+*/
 
 function prependKitten(name) {
   
