@@ -10,9 +10,14 @@ function destructivelyAppendKitten(name) {
   kittens.push(name);
 }
 
+// use UNSHIFT to add new name to beginning
+
 function destructivelyPrependKitten(name) {
   kittens.unshift(name);
 }
+
+// use POP to remove last. 
+// no need for parameter because it's removal, not addition
 
 function destructivelyRemoveLastKitten() {
   kittens.pop();
