@@ -47,7 +47,7 @@ function prependKitten(name) {
 }
 
 
-/*  use SLICE to 
+/*  use SLICE to remove
 
 */
 
